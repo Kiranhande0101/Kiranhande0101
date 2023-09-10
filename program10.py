@@ -1,18 +1,10 @@
-rows=int(input())
-for i in range(rows-1):
-    for j in range(i,rows):
-        if i%2==0:
-            print('#',end=' ')
-        else:
-            print("*",end=" ")
+rows=int(input("enter rows"))
+
+for x in range(rows):
+    num=1+x
+    for y in range((rows-x)):
+        print(" ",end=" ")
+    for z in range(x+1):
+        print(num*(z+1),end=" ")
     print()
-        
-    
-for i in range(rows):
-    for j in range(i+1):
-        if i%2==0:
-            print('*',end=' ')
-        else:
-            print("#",end=" ")
-        
-    print()
+            

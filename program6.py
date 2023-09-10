@@ -1,12 +1,16 @@
-rows=int(input())
+'''A
+   B 2
+   C 3 C
+   D 4 D 4'''
+rows=int(input("enter rows"))
 
 for x in range(rows):
-    num=65+x
-   # num2=97+x
-    for j in range(x+1):
-        if x%2==0:
-            print(chr(num),end=" ")
-        else:
-            print(chr(num+32),end=" ")
-    print()
-            
+       num=x+65
+       for y in range(x+1):
+              if y%2==0:
+                     print(chr(num),end=" ")
+              else:
+                     print(num-64,end=" ")
+   
+       print()
+

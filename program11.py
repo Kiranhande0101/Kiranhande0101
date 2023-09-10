@@ -1,15 +1,8 @@
-rows=int(input())
-for i in range(rows-1):
-    num=1
-    for j in range(i,rows):
-        print(num,end=" ")
-        num=num+1
-    print()
-        
+rows=int(input("enter number"))
+n=1
+for i in range(1,rows+1):
+    n=n*i
+    print(n is {n})
     
-for i in range(rows):
-    num=1
-    for j in range(i+1):
-        print(num,end=' ')
-        num=num+1
-    print()
+        
+        
