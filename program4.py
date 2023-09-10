@@ -1,18 +1,8 @@
-'''d c b a 
-   c b a
-   b a 
-   a '''
-from re import A
-
-
-rows=int(input("enter rows"))
+rows=4
 for i in range(rows):
-    num=100-i
-    for j in range(rows-i):
+    num=68
+    for j in range(i+1):
         data=chr(num)
         print(data,end=" ")
         num=num-1
     print()
-        
-    
-   

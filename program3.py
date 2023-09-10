@@ -1,15 +1,7 @@
-'''D4 C3 B2 A1
-   D4 C3 B2 A1
-   D4 C3 B2 A1
-   D4 C3 B2 A1'''
-   
-rows=int(input("enter no of rows"))
-
+rows=4
 for i in range(rows):
-    n=4
-    a=68
-    for j in range(rows):
-        print(chr(a)+str(n),end=" ")
-        n=n-1
-        a=a-1
+    num=i+1
+    for j in range(i+1):
+        print(num,end=" ")
+        num=num-1
     print()
